@@ -1,0 +1,1248 @@
+[
+  {
+    "name": "Abiding",
+    "description": "Weapons with this enchant become unbreakable",
+    "appliesTo": "Weapons",
+    "rarity": "Legendary",
+    "maxLevel": 1
+  },
+  {
+    "name": "Aegis",
+    "description": "Chance to gain speed when taking fall damage.",
+    "appliesTo": "Boots",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Allure",
+    "description": "Your attack pulls mobs towards you.",
+    "appliesTo": "Swords",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Ambit",
+    "description": "Damages mobs within a radius that increases with the level of enchant.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Ultimate",
+    "maxLevel": 7
+  },
+  {
+    "name": "Angelic",
+    "description": "Heals health when damaged.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 5
+  },
+  {
+    "name": "Auto Reel",
+    "description": "Automatically reels in the fishing rod when it gets a bite.",
+    "appliesTo": "Fishing Rods",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Aqua",
+    "description": "Deal double damage while in water.",
+    "appliesTo": "Boots",
+    "rarity": "Legendary",
+    "maxLevel": 4
+  },
+  {
+    "name": "Aquatic",
+    "description": "Breathe underwater.",
+    "appliesTo": "Helmets",
+    "rarity": "Simple",
+    "maxLevel": 1
+  },
+  {
+    "name": "Archer",
+    "description": "Increases damage dealt with bows.",
+    "appliesTo": "Bow",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Armored",
+    "description": "Decreases damage from enemy swords by 2% per level.",
+    "appliesTo": "Armor",
+    "rarity": "Legendary",
+    "maxLevel": 4
+  },
+  {
+    "name": "Arrow Break",
+    "description": "Chance for arrows to bounce off you while holding item with this enchant.",
+    "appliesTo": "Axe",
+    "rarity": "Ultimate",
+    "maxLevel": 6
+  },
+  {
+    "name": "Arrow Deflect",
+    "description": "Chance to prevent enemy arrow from dealing damage.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Axe of Spirits",
+    "description": "Chance to get more souls from killing players.",
+    "appliesTo": "Axes",
+    "rarity": "Fabled",
+    "maxLevel": 3
+  },
+  {
+    "name": "Bait",
+    "description": "Chance to receive double fishing drops.",
+    "appliesTo": "Fishing Rod",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Barbarian",
+    "description": "Chance to inflicts more axe damage.",
+    "appliesTo": "Axes",
+    "rarity": "Legendary",
+    "maxLevel": 4
+  },
+  {
+    "name": "Beastslayer",
+    "description": "Increases damage dealt to Hostile Mobs.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Legendary",
+    "maxLevel": 4
+  },
+  {
+    "name": "Berserk",
+    "description": "Chance of strength and mining fatigue.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Unique",
+    "maxLevel": 5
+  },
+  {
+    "name": "Blacksmith",
+    "description": "Repair your weapon in exchange for dealing less damage.",
+    "appliesTo": "Axe",
+    "rarity": "Legendary",
+    "maxLevel": 5
+  },
+  {
+    "name": "Bleed",
+    "description": "Make your opponent bleed.",
+    "appliesTo": "Axes",
+    "rarity": "Ultimate",
+    "maxLevel": 6
+  },
+  {
+    "name": "Blind",
+    "description": "A chance of causing blindness when attacking.",
+    "appliesTo": "Swords",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Block",
+    "description": "A chance to negate an attack and deal up to 4 damage back.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Blunt Force",
+    "description": "Chance to strike with great force.",
+    "appliesTo": "Axes",
+    "rarity": "Elite",
+    "maxLevel": 4
+  },
+  {
+    "name": "Bone Crusher",
+    "description": "Increases damage dealt to Skeletons.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Simple",
+    "maxLevel": 3
+  },
+  {
+    "name": "Bowmaster",
+    "description": "Multiplies damage against players who are wielding a Sword at the time they are hit.",
+    "appliesTo": "Bow, Crossbow, Trident",
+    "rarity": "Elite",
+    "maxLevel": 5
+  },
+  {
+    "name": "Carrot Planter",
+    "description": "Plant carrots in a 3x3 area by shift+right-clicking.",
+    "appliesTo": "Hoes",
+    "rarity": "Simple",
+    "maxLevel": 3
+  },
+  {
+    "name": "Chaos",
+    "description": "Deal weakness and wither effects.",
+    "appliesTo": "Trident",
+    "rarity": "Legendary",
+    "maxLevel": 5
+  },
+  {
+    "name": "Chunky",
+    "description": "Chance to receive less damage.",
+    "appliesTo": "Chestplates",
+    "rarity": "Legendary",
+    "maxLevel": 6
+  },
+  {
+    "name": "Cleave",
+    "description": "Damages players within a radius that increases with the level of enchant.",
+    "appliesTo": "Axes",
+    "rarity": "Ultimate",
+    "maxLevel": 7
+  },
+  {
+    "name": "Confuse",
+    "description": "Chance to give nausea effect.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Convulse",
+    "description": "Chance to throw your attackers into the air.",
+    "appliesTo": "Boots",
+    "rarity": "Legendary",
+    "maxLevel": 6
+  },
+  {
+    "name": "Creeper Armor",
+    "description": "Chance to be immune to explosive damage, at higher levels you have a chance to heal.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Critical",
+    "description": "Increase damage done with critical hit.",
+    "appliesTo": "Swords",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Curse",
+    "description": "Chance to give your enemy mining fatigue.",
+    "appliesTo": "Armor",
+    "rarity": "Elite",
+    "maxLevel": 2
+  },
+  {
+    "name": "Deadshot",
+    "description": "Headshots with tridents deal double damage.",
+    "appliesTo": "Trident",
+    "rarity": "Legendary",
+    "maxLevel": 5
+  },
+  {
+    "name": "Death Punch",
+    "description": "Increases damage dealt to Zombies.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Simple",
+    "maxLevel": 5
+  },
+  {
+    "name": "Decapitation",
+    "description": "Chance to have opponents head drop on death.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Simple",
+    "maxLevel": 3
+  },
+  {
+    "name": "Deranged",
+    "description": "Strike lightning at nearby players.",
+    "appliesTo": "Swords",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Devour",
+    "description": "Chance to restore food while killing mobs.",
+    "appliesTo": "Weapons",
+    "rarity": "Unique",
+    "maxLevel": 3
+  },
+  {
+    "name": "Diminish",
+    "description": "Chance to give your enemy mining fatigue.",
+    "appliesTo": "Axes",
+    "rarity": "Ultimate",
+    "maxLevel": 1
+  },
+  {
+    "name": "Diploid",
+    "description": "Chance to multiply mob drops. Costs 5 souls / activation.",
+    "appliesTo": "Swords",
+    "rarity": "Fabled",
+    "maxLevel": 5
+  },
+  {
+    "name": "Disappear",
+    "description": "Chance to become invisible when low on health.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Disarm",
+    "description": "Chance to disarm opponent.",
+    "appliesTo": "Swords",
+    "rarity": "Fabled",
+    "maxLevel": 3
+  },
+  {
+    "name": "Disarmor",
+    "description": "Chance of unequipping random armor piece from your opponent.",
+    "appliesTo": "Sword",
+    "rarity": "Legendary",
+    "maxLevel": 8
+  },
+  {
+    "name": "Disintegrate",
+    "description": "Chance to deal extra durability damage to all enemy armor with every attack.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Distance",
+    "description": "Chance to distance yourself from your enemies and gain regeneration.",
+    "appliesTo": "Weapons",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Divert",
+    "description": "Chance of poisoning opponent and gaining regeneration.",
+    "appliesTo": "Armor",
+    "rarity": "Legendary",
+    "maxLevel": 5
+  },
+  {
+    "name": "Dodge",
+    "description": "Chance to dodge physical enemy, chance increases when sneaking.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 5
+  },
+  {
+    "name": "Double Strike",
+    "description": "A chance to strike twice.",
+    "appliesTo": "Swords",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Ender Slayer",
+    "description": "Increases damage dealt to Enderman and Ender dragons.",
+    "appliesTo": "Weapons",
+    "rarity": "Elite",
+    "maxLevel": 5
+  },
+  {
+    "name": "Endmaster",
+    "description": "Double damage to mobs in End.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Epicness",
+    "description": "Display particles on attack.",
+    "appliesTo": "Swords",
+    "rarity": "Simple",
+    "maxLevel": 3
+  },
+  {
+    "name": "Exalted",
+    "description": "A chance of removing bad potion effects.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Experience",
+    "description": "Chance to get more experience from ores.",
+    "appliesTo": "Tools",
+    "rarity": "Simple",
+    "maxLevel": 5
+  },
+  {
+    "name": "Explosive",
+    "description": "Chance for arrows to explode.",
+    "appliesTo": "Bow",
+    "rarity": "Unique",
+    "maxLevel": 5
+  },
+  {
+    "name": "Explosive Demise",
+    "description": "Summon creepers as your guards when near death.",
+    "appliesTo": "Leggings",
+    "rarity": "Unique",
+    "maxLevel": 8
+  },
+  {
+    "name": "Extinguish",
+    "description": "Chance to extinguish yourself when on fire.",
+    "appliesTo": "Leggings",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Famine",
+    "description": "A chance to give your opponent the hunger effect.",
+    "appliesTo": "Weapons",
+    "rarity": "Unique",
+    "maxLevel": 4
+  },
+  {
+    "name": "Featherweight",
+    "description": "Chance to get a burst of haste.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Unique",
+    "maxLevel": 3
+  },
+  {
+    "name": "Forcefield",
+    "description": "Chance to push away your opponent.",
+    "appliesTo": "Swords",
+    "rarity": "Simple",
+    "maxLevel": 5
+  },
+  {
+    "name": "Frenzy",
+    "description": "Chance for arrows to explode.",
+    "appliesTo": "Crossbow",
+    "rarity": "Unique",
+    "maxLevel": 5
+  },
+  {
+    "name": "Frozen",
+    "description": "Can cause slowness to attacker when defending.",
+    "appliesTo": "Armor",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Fire Hook",
+    "description": "The hook is on fire.",
+    "appliesTo": "Fishing Rod",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Fuddle",
+    "description": "Disorganize opponent's hotbar.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Fumble",
+    "description": "Chance to explode enemy when hit by their arrows.",
+    "appliesTo": "Chestplate",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Gears",
+    "description": "Added speed when equipped.",
+    "appliesTo": "Boots",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Glowing",
+    "description": "Gives permanent night vision.",
+    "appliesTo": "Helmet",
+    "rarity": "Simple",
+    "maxLevel": 1
+  },
+  {
+    "name": "Greatsword",
+    "description": "Multiplies damage against players who are wielding a Bow at the time they are hit.",
+    "appliesTo": "Sword",
+    "rarity": "Elite",
+    "maxLevel": 5
+  },
+  {
+    "name": "Guardians",
+    "description": "A chance to spawn iron golems to assist you and watch over you.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 10
+  },
+  {
+    "name": "Hardened",
+    "description": "Chance to recover durability when damaged by players.",
+    "appliesTo": "Armor",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Haste",
+    "description": "Allows you to swing your tools faster.",
+    "appliesTo": "Tools",
+    "rarity": "Fabled",
+    "maxLevel": 3
+  },
+  {
+    "name": "Hasten",
+    "description": "Chance to gain Haste after breaking blocks.",
+    "appliesTo": "Tools",
+    "rarity": "Simple",
+    "maxLevel": 3
+  },
+  {
+    "name": "Heavy",
+    "description": "Decreases damage from enemy bows by 2% per level.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 5
+  },
+  {
+    "name": "Hellfire",
+    "description": "Arrows turn into fireballs.",
+    "appliesTo": "Bow",
+    "rarity": "Ultimate",
+    "maxLevel": 5
+  },
+  {
+    "name": "Hook",
+    "description": "Get more exp from fishing.",
+    "appliesTo": "Fishing Rod",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Hook",
+    "description": "Chance to increase luck while fishing.",
+    "appliesTo": "Fishing Rod",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Hunter",
+    "description": "Increases damage dealt to Passive Mobs.",
+    "appliesTo": "Bow, Crossbow, Trident",
+    "rarity": "Unique",
+    "maxLevel": 4
+  },
+  {
+    "name": "Ice Aspect",
+    "description": "A chance of causing the slowness effect on your enemy.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Immolate",
+    "description": "Increases damage dealt to Spiders.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Immolation",
+    "description": "Set all mobs in radius on fire.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Immortal",
+    "description": "Chance to prevents your armor from taking durability damage.",
+    "appliesTo": "Armor",
+    "rarity": "Fabled",
+    "maxLevel": 4
+  },
+  {
+    "name": "Impact",
+    "description": "Chance to double dealt damage.",
+    "appliesTo": "Trident",
+    "rarity": "Elite",
+    "maxLevel": 4
+  },
+  {
+    "name": "Implants",
+    "description": "Chance to restore food every few seconds.",
+    "appliesTo": "Helmets",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Infernal",
+    "description": "Explosive fire effect.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Inflame",
+    "description": "Set all players in radius on fire.",
+    "appliesTo": "Axes",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Inquisitive",
+    "description": "Chance to increase EXP drops from mobs.",
+    "appliesTo": "Swords",
+    "rarity": "Legendary",
+    "maxLevel": 4
+  },
+  {
+    "name": "Interrupt",
+    "description": "Chance to give your enemy mining fatigue.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 2
+  },
+  {
+    "name": "Jelly Legs",
+    "description": "Chance to negate fall damage.",
+    "appliesTo": "Boots",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Judgement",
+    "description": "Chance of poisoning opponent and gaining regeneration.",
+    "appliesTo": "Elytra",
+    "rarity": "Legendary",
+    "maxLevel": 5
+  },
+  {
+    "name": "Kill Aura",
+    "description": "Chance to kill multiple\\nmonsters in radius.",
+    "appliesTo": "Swords",
+    "rarity": "Legendary",
+    "maxLevel": 5
+  },
+  {
+    "name": "Launch",
+    "description": "Launch yourself by right-clicking.",
+    "appliesTo": "Swords",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Lava Walker",
+    "description": "Walk on Lava.",
+    "appliesTo": "Boots",
+    "rarity": "Legendary",
+    "maxLevel": 1
+  },
+  {
+    "name": "Lifesteal",
+    "description": "A chance to steal health when attacking.",
+    "appliesTo": "Swords",
+    "rarity": "Legendary",
+    "maxLevel": 5
+  },
+  {
+    "name": "Longbow",
+    "description": "Greatly increases damage dealt to enemy players that have a bow in their hands.",
+    "appliesTo": "Bow",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Lucid",
+    "description": "Chance to cure blindness and gain night vision when hit.",
+    "appliesTo": "Armor",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Magnet",
+    "description": "Your attack pulls players towards you.",
+    "appliesTo": "Swords",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Marksman",
+    "description": "Increases damage dealt with Crossbows.",
+    "appliesTo": "Crossbow",
+    "rarity": "Elite",
+    "maxLevel": 4
+  },
+  {
+    "name": "Missile",
+    "description": "Arrows turn into fireballs.",
+    "appliesTo": "Crossbow",
+    "rarity": "Elite",
+    "maxLevel": 5
+  },
+  {
+    "name": "Molten",
+    "description": "Chance of setting your attacker ablaze.",
+    "appliesTo": "Armor",
+    "rarity": "Unique",
+    "maxLevel": 4
+  },
+  {
+    "name": "Momentum",
+    "description": "Chance to gain speed boost with fireworks.",
+    "appliesTo": "Elytra",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Multiplication",
+    "description": "Chance to multiply ore drops. Costs 5 souls / activation.",
+    "appliesTo": "Pickaxe",
+    "rarity": "Fabled",
+    "maxLevel": 5
+  },
+  {
+    "name": "Nether Slayer",
+    "description": "Increases damage dealt to nether mobs.",
+    "appliesTo": "Weapons",
+    "rarity": "Elite",
+    "maxLevel": 5
+  },
+  {
+    "name": "Netherling",
+    "description": "Double damage to mobs in Nether.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Neutralize",
+    "description": "Chance to disarm opponent.",
+    "appliesTo": "Bow, Crossbow",
+    "rarity": "Fabled",
+    "maxLevel": 2
+  },
+  {
+    "name": "Night Owl",
+    "description": "Deal more damage to mobs at night.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 1
+  },
+  {
+    "name": "Nightwalker",
+    "description": "Freeze mobs at night.",
+    "appliesTo": "Swords",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Nulify",
+    "description": "Chance to reflect attack and multiply damage. Costs 40 souls / activation.",
+    "appliesTo": "Leggings",
+    "rarity": "Fabled",
+    "maxLevel": 3
+  },
+  {
+    "name": "Obsidianshield",
+    "description": "Gives permanent fire resistance.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 1
+  },
+  {
+    "name": "Overload",
+    "description": "Unlocks additional hearts.",
+    "appliesTo": "Armor",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Paralyze",
+    "description": "Gives lightning effect and a chance for slowness and slow swinging.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Elite",
+    "maxLevel": 4
+  },
+  {
+    "name": "Patch",
+    "description": "Chance to recover durability when damaged by mobs.",
+    "appliesTo": "Armor",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Perish",
+    "description": "A chance to give the wither effect.",
+    "appliesTo": "Bow, Crossbow, Trident",
+    "rarity": "Unique",
+    "maxLevel": 5
+  },
+  {
+    "name": "Permafrost",
+    "description": "Chance slow and bleed opponents.",
+    "appliesTo": "Swords",
+    "rarity": "Ultimate",
+    "maxLevel": 5
+  },
+  {
+    "name": "Phoenix",
+    "description": "Chance to revive yourself when killed.",
+    "appliesTo": "Chestplates",
+    "rarity": "Fabled",
+    "maxLevel": 3
+  },
+  {
+    "name": "Piercing",
+    "description": "Inflicts more damage.",
+    "appliesTo": "Bows",
+    "rarity": "Ultimate",
+    "maxLevel": 5
+  },
+  {
+    "name": "Planter",
+    "description": "Plant seeds in a 3x3 area by shift+right-clicking.",
+    "appliesTo": "Hoes",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Plummet",
+    "description": "Deal damage to nearby mobs when taking fall damage.",
+    "appliesTo": "Boots",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Poison",
+    "description": "A chance of giving poison effect.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Poisoned Hook",
+    "description": "Poisons the hook.",
+    "appliesTo": "Fishing Rod",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Poisoned",
+    "description": "Chance to give poison to your attacker.",
+    "appliesTo": "Armor",
+    "rarity": "Elite",
+    "maxLevel": 4
+  },
+  {
+    "name": "Poseidon",
+    "description": "Increases damage dealt with Tridents.",
+    "appliesTo": "Trident",
+    "rarity": "Elite",
+    "maxLevel": 4
+  },
+  {
+    "name": "Potato Planter",
+    "description": "Plant potatoes in a 3x3 area by shift+right-clicking.",
+    "appliesTo": "Hoes",
+    "rarity": "Simple",
+    "maxLevel": 3
+  },
+  {
+    "name": "Ragdoll",
+    "description": "Chance to be pushed back when getting hit.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Ravenous",
+    "description": "Chance to regain hunger while fighting.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Unique",
+    "maxLevel": 4
+  },
+  {
+    "name": "Reaper",
+    "description": "A chance to give your opponent the Wither and Blindness effects while dealing damage",
+    "appliesTo": "Axe",
+    "rarity": "Elite",
+    "maxLevel": 4
+  },
+  {
+    "name": "Rebound",
+    "description": "Gain some health back after kills.",
+    "appliesTo": "Weapons",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Rebreather",
+    "description": "Chance to regain air when mining under water.",
+    "appliesTo": "Pickaxe",
+    "rarity": "Simple",
+    "maxLevel": 2
+  },
+  {
+    "name": "Reflect",
+    "description": "Absorb enemy damage and reflect it back.",
+    "appliesTo": "Armor",
+    "rarity": "Unique",
+    "maxLevel": 5
+  },
+  {
+    "name": "Reforged",
+    "description": "Protects weapons and tools durability, items will be take longer to break.",
+    "appliesTo": "Weapons and tools",
+    "rarity": "Elite",
+    "maxLevel": 10
+  },
+  {
+    "name": "Reinforced",
+    "description": "Reduces damage dealt to you.",
+    "appliesTo": "Elytra",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Replanter",
+    "description": "Replants crops when harvested",
+    "appliesTo": "Hoes",
+    "rarity": "Unique",
+    "maxLevel": 1
+  },
+  {
+    "name": "Replenish",
+    "description": "Chance to restore food while mining.",
+    "appliesTo": "Pickaxes",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Restore",
+    "description": "Upon breaking, item has a chance to lose this enchantment and repair half of its durability.",
+    "appliesTo": "Tools",
+    "rarity": "Fabled",
+    "maxLevel": 4
+  },
+  {
+    "name": "Rocket Escape",
+    "description": "Blast off into the air at low HP.",
+    "appliesTo": "Boots",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Rush",
+    "description": "Chance of speed boost when taking off with elytra. Costs 10 souls / activation.",
+    "appliesTo": "Elytra",
+    "rarity": "Fabled",
+    "maxLevel": 3
+  },
+  {
+    "name": "Safeguard",
+    "description": "Chance to gain Damage Resistance when defending.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 2
+  },
+  {
+    "name": "Scare",
+    "description": "Chance to replace your opponents helmet\\nto a pumpkin for a short time.",
+    "appliesTo": "Weapons",
+    "rarity": "Fabled",
+    "maxLevel": 5
+  },
+  {
+    "name": "Shatter",
+    "description": "Chance to deal extra durability damage to all enemy armor with every attack.",
+    "appliesTo": "Axes",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Sharpness Hook",
+    "description": "Deal damage with the hook.",
+    "appliesTo": "Fishing Rod",
+    "rarity": "Ultimate",
+    "maxLevel": 1
+  },
+  {
+    "name": "Shockwave",
+    "description": "Chance to push back your attacker when your health is low.",
+    "appliesTo": "Chestplates",
+    "rarity": "Elite",
+    "maxLevel": 5
+  },
+  {
+    "name": "Slayer",
+    "description": "Increases damage dealt to Passive Mobs.",
+    "appliesTo": "Swords, Axes",
+    "rarity": "Unique",
+    "maxLevel": 4
+  },
+  {
+    "name": "Slingshot",
+    "description": "Boost yourself into flight by right-clicking.",
+    "appliesTo": "Elytra",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Smelting",
+    "description": "Chance to smelt mined blocks.",
+    "appliesTo": "Pickaxes",
+    "rarity": "Simple",
+    "maxLevel": 3
+  },
+  {
+    "name": "Smoke Bomb",
+    "description": "When you are near death, you will spawn a smoke bomb to distract your enemies.",
+    "appliesTo": "Helmet",
+    "rarity": "Elite",
+    "maxLevel": 8
+  },
+  {
+    "name": "Snap",
+    "description": "Pull hit entity towards you.",
+    "appliesTo": "Fishing Rod",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Snare",
+    "description": "Chance to slow and fatigue enemies with projectiles.",
+    "appliesTo": "Bows",
+    "rarity": "Elite",
+    "maxLevel": 4
+  },
+  {
+    "name": "Sniper",
+    "description": "Headshots with bows deal double damage.",
+    "appliesTo": "Bow",
+    "rarity": "Ultimate",
+    "maxLevel": 5
+  },
+  {
+    "name": "Soulbound",
+    "description": "A chance to keep item on death.",
+    "appliesTo": "Weapons + Tools + Bows",
+    "rarity": "Fabled",
+    "maxLevel": 3
+  },
+  {
+    "name": "Soulgrind",
+    "description": "Chance to get souls by killing mobs.",
+    "appliesTo": "Swords",
+    "rarity": "Fabled",
+    "maxLevel": 3
+  },
+  {
+    "name": "Soulless",
+    "description": "Increases damage dealt to Hostile Mobs.",
+    "appliesTo": "Bow, Crossbow, Trident",
+    "rarity": "Unique",
+    "maxLevel": 4
+  },
+  {
+    "name": "Soulminer",
+    "description": "Chance to get souls by mining.",
+    "appliesTo": "Pickaxe",
+    "rarity": "Fabled",
+    "maxLevel": 3
+  },
+  {
+    "name": "Spark",
+    "description": "Light opponents on fire.",
+    "appliesTo": "Trident",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Spiritmaster",
+    "description": "Chance to get more souls from killing players.",
+    "appliesTo": "Swords",
+    "rarity": "Fabled",
+    "maxLevel": 3
+  },
+  {
+    "name": "Spirits",
+    "description": "Chance to spawn guard blazes.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 10
+  },
+  {
+    "name": "Springs",
+    "description": "Gives jump boost.",
+    "appliesTo": "Boots",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Strife",
+    "description": "Increases Trident melee damage.",
+    "appliesTo": "Trident",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Strike",
+    "description": "Chance to strike lightning at the opponent.",
+    "appliesTo": "Swords, Bow, Crossbow, Trident",
+    "rarity": "Simple",
+    "maxLevel": 3
+  },
+  {
+    "name": "Striker",
+    "description": "Rain arrows over opponent.",
+    "appliesTo": "Bow",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Suspend",
+    "description": "Chance to cause no knockback to mobs.",
+    "appliesTo": "Swords",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Swordsman",
+    "description": "Chance to reduces incoming damage while wielding a sword by up to 22% at max level.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 5
+  },
+  {
+    "name": "Tank",
+    "description": "Chance to decreases damage from enemy axes by 2% per level.",
+    "appliesTo": "Armor",
+    "rarity": "Ultimate",
+    "maxLevel": 4
+  },
+  {
+    "name": "Telepathy",
+    "description": "Automatically places blocks broken by tools in your inventory.",
+    "appliesTo": "Tools",
+    "rarity": "Unique",
+    "maxLevel": 4
+  },
+  {
+    "name": "Thunderlord",
+    "description": "Strike monsters with lightning every 3 consecutive hits.",
+    "appliesTo": "Weapons",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Timber",
+    "description": "Chance to break a tree in one hit",
+    "appliesTo": "Axes",
+    "rarity": "Ultimate",
+    "maxLevel": 3
+  },
+  {
+    "name": "Trench",
+    "description": "Chance to break in 3x3 area.",
+    "appliesTo": "Pickaxes, Shovels",
+    "rarity": "Ultimate",
+    "maxLevel": 9
+  },
+  {
+    "name": "Trickster",
+    "description": "When hit you have a chance to teleport directly behind you opponent.",
+    "appliesTo": "Armor",
+    "rarity": "Elite",
+    "maxLevel": 8
+  },
+  {
+    "name": "Turmoil",
+    "description": "Chance to prevent opponents guards from spawning.",
+    "appliesTo": "Armor",
+    "rarity": "Legendary",
+    "maxLevel": 3
+  },
+  {
+    "name": "Twinge",
+    "description": "Make your enemy bleed, if hit using melee attack.",
+    "appliesTo": "Trident",
+    "rarity": "Legendary",
+    "maxLevel": 4
+  },
+  {
+    "name": "Unbreakable",
+    "description": "Tools with this enchant become unbreakable",
+    "appliesTo": "Tools",
+    "rarity": "Fabled",
+    "maxLevel": 1
+  },
+  {
+    "name": "Undead Ruse",
+    "description": "When hit you have a chance to spawn zombie hordes to distract and disorient your opponents.",
+    "appliesTo": "Boots",
+    "rarity": "Elite",
+    "maxLevel": 10
+  },
+  {
+    "name": "Unholy",
+    "description": "Defend with weakness and wither effects.",
+    "appliesTo": "Armor",
+    "rarity": "Legendary",
+    "maxLevel": 5
+  },
+  {
+    "name": "Vampire",
+    "description": "A chance to heal you for up to 3hp a few seconds after you strike.",
+    "appliesTo": "Swords",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Vein Miner",
+    "description": "Mine entire vein of ores",
+    "appliesTo": "Pickaxes",
+    "rarity": "Elite",
+    "maxLevel": 3
+  },
+  {
+    "name": "Virus",
+    "description": "A chance of giving poison effect.",
+    "appliesTo": "Bow, Crossbow, Trident",
+    "rarity": "Unique",
+    "maxLevel": 3
+  },
+  {
+    "name": "Voodoo",
+    "description": "Gives a chance to deal weakness.",
+    "appliesTo": "Armor",
+    "rarity": "Elite",
+    "maxLevel": 6
+  },
+  {
+    "name": "Ward",
+    "description": "A chance to absorb enemy damage",
+    "appliesTo": "Armor",
+    "rarity": "Unique",
+    "maxLevel": 4
+  },
+  {
+    "name": "Water Walker",
+    "description": "Walk on Water.",
+    "appliesTo": "Boots",
+    "rarity": "Legendary",
+    "maxLevel": 1
+  },
+  {
+    "name": "Wings",
+    "description": "Allows flying when worn.",
+    "appliesTo": "Boots",
+    "rarity": "Legendary",
+    "maxLevel": 1
+  },
+  {
+    "name": "Wither",
+    "description": "A chance to give the wither effect.",
+    "appliesTo": "Armor",
+    "rarity": "Elite",
+    "maxLevel": 5
+  }
+]
