@@ -258,11 +258,13 @@
             });
         });
 
-        // Filter Checkbox logic
+        // Filter Checkbox logic (FIX APPLIED HERE)
         document.querySelector('.container').addEventListener('change', (e) => {
             if (e.target.classList.contains('filter-checkbox')) {
-                const { type, value, checked } = e.target.dataset;
+                // Correctly access data-type from dataset and value/checked status directly from target
+                const type = e.target.dataset.type; // e.g., 'rarity' or 'appliesTo'
                 const valueStr = e.target.value;
+                const checked = e.target.checked; // This is the correct way to get checkbox status
 
                 if (checked) {
                     activeFilters[type].add(valueStr);
@@ -310,7 +312,7 @@
         // --- INITIALIZATION ---
         async function initializeApp() {
             try {
-                // Ensure you are testing with a local web server (http://) to avoid file:// CORS issues
+                // Using './' for relative path is good practice on GitHub Pages
                 const response = await fetch('./enchantments.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
