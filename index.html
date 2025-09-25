@@ -1,349 +1,468 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enchantment Database</title>
-    <link rel="icon" href="/path/to/your/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #1A1A1D;
-            color: #F5F5F5;
-        }
-        .font-rajdhani {
-            font-family: 'Rajdhani', sans-serif;
-        }
-        /* Custom scrollbar for a more modern look */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #28282d;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #4a4a52;
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #6c63ff;
-        }
-        /* Style for the custom dropdown */
-        .custom-select-container {
-            position: relative;
-        }
-        .custom-select-options {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            right: 0;
-            z-index: 10;
-            max-height: 200px;
-            overflow-y: auto;
-        }
-        .custom-select-container.open .custom-select-options {
-            display: block;
-        }
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #1a1a1d;
+        color: #f5f5f5;
+      }
+      .font-rajdhani {
+        font-family: "Rajdhani", sans-serif;
+      }
+      /* Custom scrollbar for a more modern look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #28282d;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4a4a52;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6c63ff;
+      }
+      /* Style for the custom dropdown */
+      .custom-select-container {
+        position: relative;
+      }
+      .custom-select-options {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        max-height: 200px;
+        overflow-y: auto;
+      }
+      .custom-select-container.open .custom-select-options {
+        display: block;
+      }
     </style>
-</head>
-<body class="min-h-screen bg-cover bg-fixed" style="background-image: url('https://placehold.co/1920x1080/1A1A1D/1A1A1D?text=')">
-
+  </head>
+  <body
+    class="min-h-screen bg-cover bg-fixed"
+    style="
+      background-image: url('https://placehold.co/1920x1080/1A1A1D/1A1A1D?text=');
+    "
+  >
     <div class="container mx-auto p-4 md:p-8">
-        <header class="flex items-center gap-4 mb-8">
-            <svg class="w-10 h-10 text-[#9F70FD]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.512 1.422l-6.363 7.828c-.205.251-.325.562-.325.895 0 .828.672 1.5 1.5 1.5h15c.828 0 1.5-.672 1.5-1.5 0-.333-.12-.644-.325-.895l-6.363-7.828a2.25 2.25 0 01-.512-1.422V3.104a2.25 2.25 0 00-3.263-2.012L9.75 3.104z" />
-            </svg>
-            
-            <div class="flex items-center gap-2">
-                <div id="brand-logo">
-                    <img src="/path/to/your/logo.png" alt="Brand Logo" class="h-8 w-auto">
-                </div>
-                <h1 class="text-3xl md:text-4xl font-rajdhani font-bold tracking-wider uppercase">YourBrand<span class="text-[#9F70FD]">DB</span></h1>
-                </div>
-            </header>
+      <header class="flex items-center gap-4 mb-8">
+        <svg
+          class="w-10 h-10 text-[#9F70FD]"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M9.75 3.104v5.714a2.25 2.25 0 01-.512 1.422l-6.363 7.828c-.205.251-.325.562-.325.895 0 .828.672 1.5 1.5 1.5h15c.828 0 1.5-.672 1.5-1.5 0-.333-.12-.644-.325-.895l-6.363-7.828a2.25 2.25 0 01-.512-1.422V3.104a2.25 2.25 0 00-3.263-2.012L9.75 3.104z"
+          />
+        </svg>
 
-        <main class="bg-gray-900/60 backdrop-blur-xl border border-gray-700/50 rounded-2xl shadow-2xl p-4 sm:p-6 md:p-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                <div class="md:col-span-1">
-                     <input type="text" id="search-input" placeholder="Search for an enchantment..." class="w-full bg-gray-800/80 border border-gray-700 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-[#9F70FD] focus:border-[#9F70FD] outline-none transition duration-300 placeholder-gray-400">
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:col-span-2 gap-4">
-                    <div id="rarity-filter-container" class="custom-select-container relative">
-                        <button id="rarity-filter-button" class="w-full bg-gray-800/80 border border-gray-700 rounded-lg px-4 py-2.5 flex justify-between items-center text-left">
-                            <span class="text-gray-300">Filter by Rarity</span>
-                            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
-                        </button>
-                        <div id="rarity-filter-options" class="custom-select-options mt-1 bg-gray-800 border border-gray-700 rounded-lg shadow-lg p-2 space-y-1">
-                            </div>
-                    </div>
-                    <div id="applies-to-filter-container" class="custom-select-container relative">
-                        <button id="applies-to-filter-button" class="w-full bg-gray-800/80 border border-gray-700 rounded-lg px-4 py-2.5 flex justify-between items-center text-left">
-                            <span class="text-gray-300">Filter by Applies To</span>
-                            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
-                        </button>
-                        <div id="applies-to-filter-options" class="custom-select-options mt-1 bg-gray-800 border border-gray-700 rounded-lg shadow-lg p-2 space-y-1">
-                            </div>
-                    </div>
-                </div>
-            </div>
+        <div class="flex items-center gap-2">
+          <h1
+            class="text-3xl md:text-4xl font-rajdhani font-bold tracking-wider uppercase"
+          >
+            PorkySMP Enchants<span class="text-[#9F70FD]">DB</span>
+          </h1>
+        </div>
+      </header>
 
-            <div class="overflow-x-auto">
-                <table class="w-full text-left">
-                    <thead class="border-b-2 border-gray-700">
-                        <tr>
-                            <th class="p-4 cursor-pointer hover:bg-gray-800/50 transition duration-200 rounded-tl-lg" data-sort="enchantment">Enchantment <span class="sort-indicator"></span></th>
-                            <th class="p-4 hidden md:table-cell">Description</th>
-                            <th class="p-4 cursor-pointer hover:bg-gray-800/50 transition duration-200" data-sort="appliesTo">Applies To <span class="sort-indicator"></span></th>
-                            <th class="p-4 cursor-pointer hover:bg-gray-800/50 transition duration-200" data-sort="rarity">Rarity <span class="sort-indicator"></span></th>
-                            <th class="p-4 cursor-pointer hover:bg-gray-800/50 transition duration-200 rounded-tr-lg" data-sort="maxLevel">Max Level <span class="sort-indicator"></span></th>
-                        </tr>
-                    </thead>
-                    <tbody id="enchantment-table-body">
-                        </tbody>
-                </table>
-                 <div id="no-results" class="text-center py-12 text-gray-400 hidden">
-                    <p class="text-xl">No enchantments found.</p>
-                    <p>Try adjusting your search or filters.</p>
-                </div>
+      <main
+        class="bg-gray-900/60 backdrop-blur-xl border border-gray-700/50 rounded-2xl shadow-2xl p-4 sm:p-6 md:p-8"
+      >
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+          <div class="md:col-span-1">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search for an enchantment..."
+              class="w-full bg-gray-800/80 border border-gray-700 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-[#9F70FD] focus:border-[#9F70FD] outline-none transition duration-300 placeholder-gray-400"
+            />
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:col-span-2 gap-4">
+            <div
+              id="rarity-filter-container"
+              class="custom-select-container relative"
+            >
+              <button
+                id="rarity-filter-button"
+                class="w-full bg-gray-800/80 border border-gray-700 rounded-lg px-4 py-2.5 flex justify-between items-center text-left"
+              >
+                <span class="text-gray-300">Filter by Rarity</span>
+                <svg
+                  class="w-5 h-5 text-gray-400"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </button>
+              <div
+                id="rarity-filter-options"
+                class="custom-select-options mt-1 bg-gray-800 border border-gray-700 rounded-lg shadow-lg p-2 space-y-1"
+              ></div>
             </div>
-        </main>
+            <div
+              id="applies-to-filter-container"
+              class="custom-select-container relative"
+            >
+              <button
+                id="applies-to-filter-button"
+                class="w-full bg-gray-800/80 border border-gray-700 rounded-lg px-4 py-2.5 flex justify-between items-center text-left"
+              >
+                <span class="text-gray-300">Filter by Applies To</span>
+                <svg
+                  class="w-5 h-5 text-gray-400"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </button>
+              <div
+                id="applies-to-filter-options"
+                class="custom-select-options mt-1 bg-gray-800 border border-gray-700 rounded-lg shadow-lg p-2 space-y-1"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left">
+            <thead class="border-b-2 border-gray-700">
+              <tr>
+                <th
+                  class="p-4 cursor-pointer hover:bg-gray-800/50 transition duration-200 rounded-tl-lg"
+                  data-sort="enchantment"
+                >
+                  Enchantment <span class="sort-indicator"></span>
+                </th>
+                <th class="p-4 hidden md:table-cell">Description</th>
+                <th
+                  class="p-4 cursor-pointer hover:bg-gray-800/50 transition duration-200"
+                  data-sort="appliesTo"
+                >
+                  Applies To <span class="sort-indicator"></span>
+                </th>
+                <th
+                  class="p-4 cursor-pointer hover:bg-gray-800/50 transition duration-200"
+                  data-sort="rarity"
+                >
+                  Rarity <span class="sort-indicator"></span>
+                </th>
+                <th
+                  class="p-4 cursor-pointer hover:bg-gray-800/50 transition duration-200 rounded-tr-lg"
+                  data-sort="maxLevel"
+                >
+                  Max Level <span class="sort-indicator"></span>
+                </th>
+              </tr>
+            </thead>
+            <tbody id="enchantment-table-body"></tbody>
+          </table>
+          <div id="no-results" class="text-center py-12 text-gray-400 hidden">
+            <p class="text-xl">No enchantments found.</p>
+            <p>Try adjusting your search or filters.</p>
+          </div>
+        </div>
+      </main>
     </div>
 
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
         // --- DATA ---
         let enchantments = []; // This will be filled by fetching the JSON
 
         const rarityColors = {
-            "Legendary": "bg-yellow-500/20 text-yellow-300 border-yellow-500/50",
-            "Ultimate": "bg-purple-500/20 text-purple-300 border-purple-500/50",
-            "Fabled": "bg-pink-500/20 text-pink-300 border-pink-500/50",
-            "Elite": "bg-cyan-500/20 text-cyan-300 border-cyan-500/50",
-            "Simple": "bg-gray-500/20 text-gray-300 border-gray-500/50",
+          Legendary: "bg-yellow-500/20 text-yellow-300 border-yellow-500/50",
+          Ultimate: "bg-purple-500/20 text-purple-300 border-purple-500/50",
+          Fabled: "bg-pink-500/20 text-pink-300 border-pink-500/50",
+          Elite: "bg-cyan-500/20 text-cyan-300 border-cyan-500/50",
+          Simple: "bg-gray-500/20 text-gray-300 border-gray-500/50",
         };
 
         // --- STATE ---
-        let currentSort = { key: 'enchantment', direction: 'asc' };
+        let currentSort = { key: "enchantment", direction: "asc" };
         let activeFilters = {
-            search: '',
-            rarity: new Set(),
-            appliesTo: new Set(),
+          search: "",
+          rarity: new Set(),
+          appliesTo: new Set(),
         };
 
         // --- DOM ELEMENTS ---
-        const tableBody = document.getElementById('enchantment-table-body');
-        const searchInput = document.getElementById('search-input');
-        const rarityOptionsContainer = document.getElementById('rarity-filter-options');
-        const appliesToOptionsContainer = document.getElementById('applies-to-filter-options');
-        const noResultsDiv = document.getElementById('no-results');
+        const tableBody = document.getElementById("enchantment-table-body");
+        const searchInput = document.getElementById("search-input");
+        const rarityOptionsContainer = document.getElementById(
+          "rarity-filter-options"
+        );
+        const appliesToOptionsContainer = document.getElementById(
+          "applies-to-filter-options"
+        );
+        const noResultsDiv = document.getElementById("no-results");
 
         // --- RENDERING FUNCTIONS ---
         const renderTable = (data) => {
-            tableBody.innerHTML = '';
-            if (data.length === 0) {
-                noResultsDiv.classList.remove('hidden');
-                return;
-            }
-            noResultsDiv.classList.add('hidden');
-            data.forEach(ench => {
-                const rarityClass = rarityColors[ench.rarity] || "bg-gray-700 text-gray-200";
-                const row = `
+          tableBody.innerHTML = "";
+          if (data.length === 0) {
+            noResultsDiv.classList.remove("hidden");
+            return;
+          }
+          noResultsDiv.classList.add("hidden");
+          data.forEach((ench) => {
+            const rarityClass =
+              rarityColors[ench.rarity] || "bg-gray-700 text-gray-200";
+            const row = `
                     <tr class="border-b border-gray-800 hover:bg-gray-800/50 transition duration-200">
                         <td class="p-4 font-semibold">${ench.enchantment}</td>
-                        <td class="p-4 text-gray-300 hidden md:table-cell">${ench.description}</td>
-                        <td class="p-4 text-gray-300">${Array.isArray(ench.appliesTo) ? ench.appliesTo.join(', ') : ench.appliesTo}</td>
-                        <td class="p-4"><span class="px-3 py-1 text-sm font-medium rounded-full border ${rarityClass}">${ench.rarity}</span></td>
-                        <td class="p-4 text-center font-semibold">${ench.maxLevel}</td>
+                        <td class="p-4 text-gray-300 hidden md:table-cell">${
+                          ench.description
+                        }</td>
+                        <td class="p-4 text-gray-300">${
+                          Array.isArray(ench.appliesTo)
+                            ? ench.appliesTo.join(", ")
+                            : ench.appliesTo
+                        }</td>
+                        <td class="p-4"><span class="px-3 py-1 text-sm font-medium rounded-full border ${rarityClass}">${
+              ench.rarity
+            }</span></td>
+                        <td class="p-4 text-center font-semibold">${
+                          ench.maxLevel
+                        }</td>
                     </tr>
                 `;
-                tableBody.innerHTML += row;
-            });
+            tableBody.innerHTML += row;
+          });
         };
 
         const populateFilters = () => {
-            const rarities = [...new Set(enchantments.map(e => e.rarity))];
-            const appliesToItems = [...new Set(enchantments.flatMap(e => e.appliesTo))];
+          const rarities = [...new Set(enchantments.map((e) => e.rarity))];
+          const appliesToItems = [
+            ...new Set(enchantments.flatMap((e) => e.appliesTo)),
+          ];
 
-            rarities.sort().forEach(rarity => {
-                const div = document.createElement('div');
-                div.innerHTML = `
+          rarities.sort().forEach((rarity) => {
+            const div = document.createElement("div");
+            div.innerHTML = `
                     <label class="flex items-center space-x-2 px-2 py-1.5 rounded-md hover:bg-gray-700 cursor-pointer">
                         <input type="checkbox" class="filter-checkbox rarity-filter bg-gray-600 border-gray-500 rounded text-[#9F70FD] focus:ring-[#9F70FD]" data-type="rarity" value="${rarity}">
                         <span>${rarity}</span>
                     </label>`;
-                rarityOptionsContainer.appendChild(div);
-            });
+            rarityOptionsContainer.appendChild(div);
+          });
 
-            appliesToItems.sort().forEach(item => {
-                const div = document.createElement('div');
-                div.innerHTML = `
+          appliesToItems.sort().forEach((item) => {
+            const div = document.createElement("div");
+            div.innerHTML = `
                     <label class="flex items-center space-x-2 px-2 py-1.5 rounded-md hover:bg-gray-700 cursor-pointer">
                         <input type="checkbox" class="filter-checkbox appliesTo-filter bg-gray-600 border-gray-500 rounded text-[#9F70FD] focus:ring-[#9F70FD]" data-type="appliesTo" value="${item}">
                         <span>${item}</span>
                     </label>`;
-                appliesToOptionsContainer.appendChild(div);
-            });
+            appliesToOptionsContainer.appendChild(div);
+          });
         };
 
         // --- LOGIC FUNCTIONS ---
         const filterAndSortData = () => {
-            let filteredData = [...enchantments];
+          let filteredData = [...enchantments];
 
-            // Apply search filter
-            if (activeFilters.search) {
-                const searchTerm = activeFilters.search.toLowerCase();
-                filteredData = filteredData.filter(e =>
-                    e.enchantment.toLowerCase().includes(searchTerm) ||
-                    e.description.toLowerCase().includes(searchTerm)
-                );
+          // Apply search filter
+          if (activeFilters.search) {
+            const searchTerm = activeFilters.search.toLowerCase();
+            filteredData = filteredData.filter(
+              (e) =>
+                e.enchantment.toLowerCase().includes(searchTerm) ||
+                e.description.toLowerCase().includes(searchTerm)
+            );
+          }
+
+          // Apply rarity filter
+          if (activeFilters.rarity.size > 0) {
+            filteredData = filteredData.filter((e) =>
+              activeFilters.rarity.has(e.rarity)
+            );
+          }
+
+          // Apply 'appliesTo' filter
+          if (activeFilters.appliesTo.size > 0) {
+            filteredData = filteredData.filter((e) =>
+              e.appliesTo.some((item) => activeFilters.appliesTo.has(item))
+            );
+          }
+
+          // Apply sorting
+          filteredData.sort((a, b) => {
+            const valA = a[currentSort.key];
+            const valB = b[currentSort.key];
+
+            let comparison = 0;
+            if (valA > valB) {
+              comparison = 1;
+            } else if (valA < valB) {
+              comparison = -1;
             }
+            return currentSort.direction === "desc"
+              ? comparison * -1
+              : comparison;
+          });
 
-            // Apply rarity filter
-            if (activeFilters.rarity.size > 0) {
-                filteredData = filteredData.filter(e => activeFilters.rarity.has(e.rarity));
-            }
-
-            // Apply 'appliesTo' filter
-            if (activeFilters.appliesTo.size > 0) {
-                filteredData = filteredData.filter(e => 
-                    e.appliesTo.some(item => activeFilters.appliesTo.has(item))
-                );
-            }
-
-            // Apply sorting
-            filteredData.sort((a, b) => {
-                const valA = a[currentSort.key];
-                const valB = b[currentSort.key];
-                
-                let comparison = 0;
-                if (valA > valB) {
-                    comparison = 1;
-                } else if (valA < valB) {
-                    comparison = -1;
-                }
-                return currentSort.direction === 'desc' ? comparison * -1 : comparison;
-            });
-            
-            renderTable(filteredData);
+          renderTable(filteredData);
         };
-        
+
         const updateSortIndicator = () => {
-            document.querySelectorAll('th .sort-indicator').forEach(indicator => {
-                indicator.textContent = '';
+          document
+            .querySelectorAll("th .sort-indicator")
+            .forEach((indicator) => {
+              indicator.textContent = "";
             });
-            const activeIndicator = document.querySelector(`th[data-sort="${currentSort.key}"] .sort-indicator`);
-            if(activeIndicator){
-                activeIndicator.textContent = currentSort.direction === 'asc' ? ' ▲' : ' ▼';
-            }
+          const activeIndicator = document.querySelector(
+            `th[data-sort="${currentSort.key}"] .sort-indicator`
+          );
+          if (activeIndicator) {
+            activeIndicator.textContent =
+              currentSort.direction === "asc" ? " ▲" : " ▼";
+          }
         };
-
 
         // --- EVENT LISTENERS ---
-        searchInput.addEventListener('input', (e) => {
-            activeFilters.search = e.target.value;
-            filterAndSortData();
+        searchInput.addEventListener("input", (e) => {
+          activeFilters.search = e.target.value;
+          filterAndSortData();
         });
 
-        document.querySelectorAll('th[data-sort]').forEach(header => {
-            header.addEventListener('click', () => {
-                const sortKey = header.dataset.sort;
-                if (currentSort.key === sortKey) {
-                    currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
-                } else {
-                    currentSort.key = sortKey;
-                    currentSort.direction = 'asc';
-                }
-                updateSortIndicator();
-                filterAndSortData();
-            });
+        document.querySelectorAll("th[data-sort]").forEach((header) => {
+          header.addEventListener("click", () => {
+            const sortKey = header.dataset.sort;
+            if (currentSort.key === sortKey) {
+              currentSort.direction =
+                currentSort.direction === "asc" ? "desc" : "asc";
+            } else {
+              currentSort.key = sortKey;
+              currentSort.direction = "asc";
+            }
+            updateSortIndicator();
+            filterAndSortData();
+          });
         });
 
         // Filter Checkbox logic
-        document.querySelector('.container').addEventListener('change', (e) => {
-            if (e.target.classList.contains('filter-checkbox')) {
-                const { type, value, checked } = e.target.dataset;
-                const valueStr = e.target.value;
+        document.querySelector(".container").addEventListener("change", (e) => {
+          if (e.target.classList.contains("filter-checkbox")) {
+            const { type, value, checked } = e.target.dataset;
+            const valueStr = e.target.value;
 
-                if (checked) {
-                    activeFilters[type].add(valueStr);
-                } else {
-                    activeFilters[type].delete(valueStr);
-                }
-                filterAndSortData();
+            if (checked) {
+              activeFilters[type].add(valueStr);
+            } else {
+              activeFilters[type].delete(valueStr);
             }
+            filterAndSortData();
+          }
         });
 
         // Logic for custom dropdowns
         const setupDropdown = (containerId) => {
-            const container = document.getElementById(containerId);
-            const button = container.querySelector('button');
-            const options = container.querySelector('.custom-select-options');
+          const container = document.getElementById(containerId);
+          const button = container.querySelector("button");
+          const options = container.querySelector(".custom-select-options");
 
-            button.addEventListener('click', (e) => {
-                e.stopPropagation();
-                // Close other dropdowns first
-                document.querySelectorAll('.custom-select-container.open').forEach(openContainer => {
-                    if(openContainer !== container) {
-                       openContainer.classList.remove('open');
-                    }
-                });
-                container.classList.toggle('open');
-            });
+          button.addEventListener("click", (e) => {
+            e.stopPropagation();
+            // Close other dropdowns first
+            document
+              .querySelectorAll(".custom-select-container.open")
+              .forEach((openContainer) => {
+                if (openContainer !== container) {
+                  openContainer.classList.remove("open");
+                }
+              });
+            container.classList.toggle("open");
+          });
         };
 
-        setupDropdown('rarity-filter-container');
-        setupDropdown('applies-to-filter-container');
+        setupDropdown("rarity-filter-container");
+        setupDropdown("applies-to-filter-container");
 
         // Close dropdowns when clicking outside
-        window.addEventListener('click', () => {
-            document.querySelectorAll('.custom-select-container.open').forEach(container => {
-                container.classList.remove('open');
+        window.addEventListener("click", () => {
+          document
+            .querySelectorAll(".custom-select-container.open")
+            .forEach((container) => {
+              container.classList.remove("open");
             });
         });
 
         // Prevent dropdowns from closing when clicking inside them
-        document.querySelectorAll('.custom-select-options').forEach(options => {
-            options.addEventListener('click', e => e.stopPropagation());
-        });
-
+        document
+          .querySelectorAll(".custom-select-options")
+          .forEach((options) => {
+            options.addEventListener("click", (e) => e.stopPropagation());
+          });
 
         // --- INITIALIZATION ---
         async function initializeApp() {
-            try {
-                const response = await fetch('enchantments.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const rawData = await response.json();
-
-                // Transform the data to match the app's expected structure
-                enchantments = rawData.map(item => ({
-                    enchantment: item.name, // "name" becomes "enchantment"
-                    description: item.description,
-                    // Ensure "appliesTo" is always an array for consistent filtering
-                    appliesTo: Array.isArray(item.appliesTo) ? item.appliesTo : [item.appliesTo],
-                    rarity: item.rarity,
-                    maxLevel: item.maxLevel
-                }));
-
-                populateFilters();
-                updateSortIndicator();
-                filterAndSortData();
-
-            } catch (error) {
-                console.error("Could not load enchantment data:", error);
-                tableBody.innerHTML = `<tr><td colspan="5" class="text-center p-8 text-red-400">Error loading enchantment data. Please check the console.</td></tr>`;
+          try {
+            const response = await fetch("./enchantments.json");
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
             }
+            const rawData = await response.json();
+
+            // Transform the data to match the app's expected structure
+            enchantments = rawData.map((item) => ({
+              enchantment: item.name, // "name" becomes "enchantment"
+              description: item.description,
+              // Ensure "appliesTo" is always an array for consistent filtering
+              appliesTo: Array.isArray(item.appliesTo)
+                ? item.appliesTo
+                : [item.appliesTo],
+              rarity: item.rarity,
+              maxLevel: item.maxLevel,
+            }));
+
+            populateFilters();
+            updateSortIndicator();
+            filterAndSortData();
+          } catch (error) {
+            console.error("Could not load enchantment data:", error);
+            tableBody.innerHTML = `<tr><td colspan="5" class="text-center p-8 text-red-400">Error loading enchantment data. Please check the console.</td></tr>`;
+          }
         }
 
         initializeApp();
-    });
-</script>
-
-</body>
+      });
+    </script>
+  </body>
 </html>
