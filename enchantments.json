@@ -78,7 +78,7 @@
   },
   {
     "name": "Aura",
-    "description": "Gives 1 &aEdition&e Enchantment when held, removes this Enchantment.",
+    "description": "Gives 1 Edition Enchantment when held, removes this Enchantment.",
     "appliesTo": "Bow, Crossbow, Sword, Tool, Trident",
     "rarity": "Spectral",
     "maxLevel": 1
@@ -134,7 +134,7 @@
   },
   {
     "name": "Black Hole",
-    "description": "Create 1 &bPlanet&e Enchantment Book for every existing &bPlanet&e Enchantment.",
+    "description": "Create 1 Planet Enchantment Book for every existing Planet Enchantment.",
     "appliesTo": "Food",
     "rarity": "Spectral",
     "maxLevel": 1
@@ -253,7 +253,7 @@
   },
   {
     "name": "Cryptid",
-    "description": "Create 2 exact copies of a random &fNormal&e or &5Tarot&e Enchantment.",
+    "description": "Create 2 exact copies of a random Normal or Tarot Enchantment.",
     "appliesTo": "Food",
     "rarity": "Spectral",
     "maxLevel": 1
@@ -358,7 +358,7 @@
   },
   {
     "name": "Ectoplasm",
-    "description": "Gives a &9Spectral Slot Increaser&e, but sets Experience to 0.",
+    "description": "Gives a Spectral Slot Increaser, but sets Experience to 0.",
     "appliesTo": "Food",
     "rarity": "Spectral",
     "maxLevel": 1
@@ -407,7 +407,7 @@
   },
   {
     "name": "Familiar",
-    "description": "Gives 3 random &fNormal&e Enchantments.",
+    "description": "Gives 3 random Normal Enchantments.",
     "appliesTo": "Food",
     "rarity": "Spectral",
     "maxLevel": 1
@@ -484,7 +484,7 @@
   },
   {
     "name": "Grim",
-    "description": "Gives 2 random &fNormal&e Enchantments.",
+    "description": "Gives 2 random Normal Enchantments.",
     "appliesTo": "Food",
     "rarity": "Spectral",
     "maxLevel": 1
@@ -526,7 +526,7 @@
   },
   {
     "name": "Hex",
-    "description": "Create a &aPolychrome Edition&e Enchantment Book.",
+    "description": "Create a Polychrome Edition Enchantment Book.",
     "appliesTo": "Food",
     "rarity": "Spectral",
     "maxLevel": 1
@@ -589,7 +589,7 @@
   },
   {
     "name": "Incantation",
-    "description": "Gives 4 random &fNormal&e Enchantments.",
+    "description": "Gives 4 random Normal Enchantments.",
     "appliesTo": "Food",
     "rarity": "Spectral",
     "maxLevel": 1
@@ -631,7 +631,7 @@
   },
   {
     "name": "Judgement",
-    "description": "Gives a random &fNormal&e Enchantment Book.",
+    "description": "Gives a random Normal Enchantment Book.",
     "appliesTo": "Food",
     "rarity": "Tarot",
     "maxLevel": 1
@@ -715,7 +715,7 @@
   },
   {
     "name": "Medium",
-    "description": "Create a &5Tarot&e Enchantment Book when you get a player kill.",
+    "description": "Create a Tarot Enchantment Book when you get a player kill.",
     "appliesTo": "Axe, Bow, Crossbow, Sword, Trident",
     "rarity": "Spectral",
     "maxLevel": 1
@@ -1051,7 +1051,7 @@
   },
   {
     "name": "Soul",
-    "description": "Create 1 &dLegendary&e Enchantment Book.",
+    "description": "Create 1 Legendary Enchantment Book.",
     "appliesTo": "Food",
     "rarity": "Spectral",
     "maxLevel": 1
@@ -1170,7 +1170,7 @@
   },
   {
     "name": "The Emperor",
-    "description": "Creates 2 random &5Tarot&e Enchantment Books.",
+    "description": "Creates 2 random Tarot Enchantment Books.",
     "appliesTo": "Food",
     "rarity": "Tarot",
     "maxLevel": 1
@@ -1212,7 +1212,7 @@
   },
   {
     "name": "The High Priestess",
-    "description": "Gives a random &bPlanet&e Enchantment Book.",
+    "description": "Gives a random Planet Enchantment Book.",
     "appliesTo": "Food",
     "rarity": "Tarot",
     "maxLevel": 1
@@ -1240,7 +1240,7 @@
   },
   {
     "name": "The Wheel of Fortune",
-    "description": "Enchantment level in 4 chance to gain an &aEdition&e Enchantment.",
+    "description": "Enchantment level in 4 chance to gain an Edition Enchantment.",
     "appliesTo": "Food",
     "rarity": "Tarot",
     "maxLevel": 4
@@ -1254,7 +1254,7 @@
   },
   {
     "name": "Trance",
-    "description": "Create a &bPlanet&e Enchantment Book when you get a player kill.",
+    "description": "Create a Planet Enchantment Book when you get a player kill.",
     "appliesTo": "Axe, Bow, Crossbow, Sword, Trident",
     "rarity": "Spectral",
     "maxLevel": 1
@@ -1373,7 +1373,7 @@
   },
   {
     "name": "Wraith",
-    "description": "Gives 2 &9Spectral&e Enchantments.",
+    "description": "Gives 2 Spectral Enchantments.",
     "appliesTo": "Food",
     "rarity": "Spectral",
     "maxLevel": 1
